@@ -23,6 +23,7 @@ Gebruik het sql script, "mollenscript.sql" om de tabel spelers en spellen aan te
 3.  Afhankelijk van de status van de speler wordt de tekst in de respectievelijke kleur getoond in het profielvenster.
 
     Mol kleur : #e0371d
+    
     Niet mol kleur : #61f1f1
     
 5.  Afhankelijk van de status van de ingelogde speler wordt de afbeelding aangepast:
