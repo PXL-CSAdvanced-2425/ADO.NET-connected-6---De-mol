@@ -1,4 +1,4 @@
-Connected ADO.NET: De Mol
+# Connected ADO.NET: De Mol
 
 De spelers van De Mol moeten hun status in het spel kunnen opzoeken via
 een
@@ -55,9 +55,9 @@ maken en te vullen met data.
         gebruik van SqlParameter's om de naam en wachtwoord van een
         speler door te geven aan het SqlCommand.
 
-6.  Als de checkbox is aangevinkt, maakt het programma achterliggend
-    gebruik van string interpolatie om de naam en wachtwoord van een
-    speler door te geven aan het SqlCommand.
+    b.  Als de checkbox is aangevinkt, maakt het programma achterliggend
+        gebruik van string interpolatie om de naam en wachtwoord van een
+        speler door te geven aan het SqlCommand.
 
 Tips:
 
