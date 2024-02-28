@@ -21,12 +21,14 @@ Gebruik het sql script, "mollenscript.sql" om de tabel spelers en spellen aan te
 1.  Als speler kan ik de invoervelden voor naam en wachtwoord gebruiken om mee in te loggen. Indien er één of meer regels in de database zitten die dezelfde naam en hetzelfde wachtwoord hebben, dan wordt ik ingelogd.
 2.  Als een speler wordt ingelogd, dan wordt het profielvenster getoond met de informatie van de ingelogde speler.
 3.  Afhankelijk van de status van de speler wordt de tekst in de respectievelijke kleur getoond in het profielvenster.
+
     Mol kleur : #e0371d
     Niet mol kleur : #61f1f1
-4.  Afhankelijk van de status van de ingelogde speler wordt de afbeelding aangepast:
+    
+5.  Afhankelijk van de status van de ingelogde speler wordt de afbeelding aangepast:
     a.  De mol ziet de afbeelding: "DeMolRed.jpg"
     b.  De niet-mollen zien de afbeelding: "DeMol.jpg"
-5.  Als gebruiker kan ik de checkbox SQL injectie activeren.
+6.  Als gebruiker kan ik de checkbox SQL injectie activeren.
     a.  Als de checkbox is uitgevinkt, maakt het programma achterliggend gebruik van SqlParameter's om de naam en wachtwoord van een speler door te geven aan het SqlCommand.
     b.  Als de checkbox is aangevinkt, maakt het programma achterliggend gebruik van string interpolatie om de naam en wachtwoord van een speler door te geven aan het SqlCommand.
 
